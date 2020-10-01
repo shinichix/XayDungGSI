@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://download.pixelexperience.org/changelog/rosy/PixelExperience_Plus_rosy-10.0-20200916-2100-OFFICIAL.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AB: PePlus_AB.7z
 
 jobs:
   build:
