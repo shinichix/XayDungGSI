@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ukcdn.cyanogenmods.org/downloads/ROM/miui-12/xiaomi/redmi-5/ElDorado.Miui12.Eu_rosy_20.4.30_9.zip
+  ROM_URL: https://sourceforge.net/projects/cherish-os/files/device/lavender/Cherish-OS-v2.0-20201125-0033-lavender-OFFICIAL-GApps.zip/download
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: ROM_A.7z
-  ROM_AB: MIUI_AB.7z
+  ROM_AB: CherishAB_AB.7z
 
 jobs:
   build:
